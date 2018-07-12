@@ -4,7 +4,7 @@ Plugin Name: Promociones - KNX
 Text Domain: knx-promociones
 Plugin URI: http://kinexo.com
 Description: Administrar promociones nunca fue tan sencillo! - Requiere CMB2 Plugin
-Version: 0.5
+Version: 0.9
 Author: Mayco
 Author URI: https://www.linkedin.com/in/mayco-barale-2563815a/
 License: GPLv2 o posterior
@@ -47,7 +47,7 @@ if ( ! function_exists('knx_setup_promociones') ) {
 			'label'                 => __( 'Promocion', 'knx-promociones' ),
 			'description'           => __( 'Para administrar promociones', 'knx-promociones' ),
 			'labels'                => $labels,
-			'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail', 'custom-fields', ),
+			'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail', 'custom-fields', 'page-attributes' ),
 			'hierarchical'          => false,
 			'public'                => true,
 			'show_ui'               => true,
