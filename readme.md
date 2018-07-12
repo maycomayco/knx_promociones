@@ -1,4 +1,4 @@
-# KNX - Promociones
+# WP - Promociones
 
 Plugin WP para administrar promociones de una manera sencilla.
 
@@ -8,7 +8,14 @@ Instalar como un plugin normal y aparecerà en el menu el item para acceder a cr
 
 ### Requisitos
 
-Requiere el plugin [CMB2](https://es.wordpress.org/plugins/cmb2/)
+* Requiere [WPBakery Page Builder](https://wpbakery.com/) o similar para la vista.
+* Requiere el plugin [CMB2](https://es.wordpress.org/plugins/cmb2/)
+
+### Custom query en WPBakery Page Builder
+
+*Proximamente...*
+
+Para más información sobre Custom Query, visitar la documentacion oficial de [query_post](https://developer.wordpress.org/reference/functions/query_posts/)
 
 ## Autor
 
