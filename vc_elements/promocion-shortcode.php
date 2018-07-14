@@ -64,11 +64,11 @@ class vcPromociones extends WPBakeryShortCode {
 	    $arrayIds = explode(',', $postIds); // explode value into an array of ids
 	    if(count($arrayIds) <= 1) {
 		    // if array contains one element or less, there's spaces after comma's, or you only entered one id
-        if( strpos($arrayIds[0], ',') !== false ){
-	        // if the first array value has commas, there were spaces after ids entered
-            $arrayIds = array(); // reset array
-            $arrayIds = explode(', ', $postIds); // explode ids with space after comma's
-        }
+            if( strpos($arrayIds[0], ',') !== false ){
+    	        // if the first array value has commas, there were spaces after ids entered
+                $arrayIds = array(); // reset array
+                $arrayIds = explode(', ', $postIds); // explode ids with space after comma's
+            }
 	    }
 	  	
 	  	// query para obtener los posts
@@ -115,7 +115,7 @@ class vcPromociones extends WPBakeryShortCode {
  				</div>
 
  		  <?php
- 		   	return '</div><!-- close .event-container-pro --><div class="clearfix-pro"></div>' . $output_pro. ob_get_clean();
+ 		   	return '</div><!-- close .event-container-pro --><div class="knx_clearfix"></div>' . $output_pro. ob_get_clean();
 		  }
 } // End Element Class
 
