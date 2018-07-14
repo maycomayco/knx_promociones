@@ -16,7 +16,7 @@
 
             <div class="knx_item_image">
 
-                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('knx_3x2'); ?></a>
 
             </div>
 
