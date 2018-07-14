@@ -63,6 +63,10 @@ if ( ! function_exists('knx_setup_promociones') ) {
 			'capability_type'       => 'page',
 		);
 		register_post_type( 'promocion', $args );
+		// set image size for custom post 
+		if (!has_image_size('knx_3x2')) {
+			add_image_size( 'knx_3x2', 500, 333, array( 'center', 'center' ) );
+		}
 	}
 	add_action( 'init', 'knx_setup_promociones', 0 );
 }
