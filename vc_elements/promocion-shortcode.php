@@ -21,16 +21,16 @@ class vcPromociones extends WPBakeryShortCode {
     // Map the block with vc_map()
     vc_map(
         array(
-            'name' => __('Promociones', 'knx-promociones'),
+            'name' => __('WP Promotions', 'knx-promotions'),
             'base' => 'vc_promociones', //igual al usado en el constructor
-            'description' => __('Mostrar promociones vigentes', 'knx-promociones'),
-            'category' => __('KNX Elementos', 'knx-promociones'),
+            'description' => __('Show currents promotions', 'knx-promotions'),
+            'category' => __('KNX Elementos', 'knx-promotions'),
             'icon' => 'vc-icon',
             'params' => array(
                 array(
                     "type" => "dropdown",
                     "class" => "",
-                    "heading" => __( "Columnas", "knx-promociones" ),
+                    "heading" => __( "Columns", "knx-promotions" ),
                     "param_name" => "grid_columns",
                     "value"       => array(
                         '2 Columns'     => '2',
@@ -43,10 +43,9 @@ class vcPromociones extends WPBakeryShortCode {
                     "type" => "textfield",
                     "holder" => "div",
                     "class" => "",
-                    "heading" => __( "Numero de promociones", "knx-promociones" ),
+                    "heading" => __( "Number of promotios", "knx-promotions" ),
                     "param_name" => "event_posts_pro",
-                    "value" => __( "", "pro-elements" ),
-                    "description" => __( "Cuantas promociones usted desea mostrar en la pagina?", "knx-promociones" ),
+                    "description" => __( "How many promotions you will show?", "knx-promotions" ),  
                     ),
             )
         )
