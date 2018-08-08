@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Promotion manager\n"
-"POT-Creation-Date: 2018-07-19 15:37-0300\n"
-"PO-Revision-Date: 2018-07-19 15:48-0300\n"
+"POT-Creation-Date: 2018-08-07 16:49-0300\n"
+"PO-Revision-Date: 2018-08-07 16:50-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -21,137 +21,137 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: promotions.php:20
+#: promotions.php:19
 msgctxt "Post Type General Name"
 msgid "Promotions"
 msgstr "Promociones"
 
-#: promotions.php:21
+#: promotions.php:20
 msgctxt "Post Type Singular Name"
 msgid "Promotion"
 msgstr "Promoción"
 
-#: promotions.php:22
+#: promotions.php:21
 msgid "Promotions"
 msgstr "Promociones"
 
-#: promotions.php:23 promotions.php:49
+#: promotions.php:22 promotions.php:48
 msgid "Promotion"
 msgstr "Promoción"
 
-#: promotions.php:24
+#: promotions.php:23
 msgid "Items archives"
 msgstr "Archivo de promociones"
 
-#: promotions.php:25
+#: promotions.php:24
 msgid "Item Attributes"
 msgstr "Atributos de la promoción"
 
-#: promotions.php:26
+#: promotions.php:25
 msgid "Parent Item:"
 msgstr "Promoción padre:"
 
-#: promotions.php:27
+#: promotions.php:26
 msgid "All items"
 msgstr "Todos las promociones"
 
-#: promotions.php:28
+#: promotions.php:27
 msgid "Add new item"
 msgstr "Añadir nueva promoción"
 
-#: promotions.php:29
+#: promotions.php:28
 msgid "Add new"
 msgstr "Añadir nuevo"
 
-#: promotions.php:30
+#: promotions.php:29
 msgid "New item"
 msgstr "Nuevo evento"
 
-#: promotions.php:31
+#: promotions.php:30
 msgid "Edit item"
 msgstr "Editar promoción"
 
-#: promotions.php:32
+#: promotions.php:31
 msgid "Update item"
 msgstr "Actualizar promoción"
 
-#: promotions.php:33
+#: promotions.php:32
 msgid "View item"
 msgstr "Ver promoción"
 
-#: promotions.php:34
+#: promotions.php:33
 msgid "View items"
 msgstr "Ver promociones"
 
-#: promotions.php:35
+#: promotions.php:34
 msgid "Search items"
 msgstr "Buscar promociones"
 
-#: promotions.php:36
+#: promotions.php:35
 msgid "Not found"
 msgstr "No encontrado"
 
-#: promotions.php:37
+#: promotions.php:36
 msgid "Not found in trash"
 msgstr "No encontrado en la papelera"
 
-#: promotions.php:38
+#: promotions.php:37
 msgid "Featured image"
 msgstr "Imagen destacada"
 
-#: promotions.php:39
+#: promotions.php:38
 msgid "Set featured image"
 msgstr "Establecer imagen destacada"
 
-#: promotions.php:40
+#: promotions.php:39
 msgid "Remove featured image"
 msgstr "Eliminar la imagen destacada"
 
-#: promotions.php:41
+#: promotions.php:40
 msgid "Use featured image"
 msgstr "Usar imagen destacada"
 
-#: promotions.php:42
+#: promotions.php:41
 msgid "Insert in to item"
 msgstr "Insertar en promoción"
 
-#: promotions.php:43
+#: promotions.php:42
 msgid "Uploaded to this item"
 msgstr "Cargado a esta promoción"
 
-#: promotions.php:44
+#: promotions.php:43
 msgid "Items list"
 msgstr "Lista de promociones"
 
-#: promotions.php:45
+#: promotions.php:44
 msgid "Items list navigation"
 msgstr "Navegación de lista de promociones"
 
-#: promotions.php:46
+#: promotions.php:45
 msgid "Filter items list"
 msgstr "Filtrar lista de promociones"
 
-#: promotions.php:50
+#: promotions.php:49
 msgid "To manage promotions"
 msgstr "Para manejar promociones"
 
-#: promotions.php:83
+#: promotions.php:82
 msgid "Promo information"
 msgstr "Información de promoción"
 
-#: promotions.php:92 promotions.php:106
+#: promotions.php:91 promotions.php:105
 msgid "End date"
 msgstr "Fecha de finalización"
 
-#: promotions.php:95
+#: promotions.php:94
 msgid "End date for the promotion."
 msgstr "Fecha de vencimiento de la promoción."
 
-#: promotions.php:105
+#: promotions.php:104
 msgid "Title"
 msgstr "Titulo"
 
-#: promotions.php:107
+#: promotions.php:106
 msgid "Date"
 msgstr "Fecha"
 
@@ -179,7 +179,11 @@ msgstr "Nro. promociones"
 msgid "How many promotions you will show?"
 msgstr "¿Cuántas promociones desea mostrar?"
 
-#: vc_elements/promocion-view.php:18
+#: vc_elements/promocion-view.php:14
+msgid "Available until: "
+msgstr "Disponible hasta: "
+
+#: vc_elements/promocion-view.php:19
 msgid "View promotion"
 msgstr "Ver promoción"
 
